@@ -1,0 +1,45 @@
+
+@media only screen and (max-witdh:767px) {
+    /* this is for mobile layout*/
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    /*this is for tablet layout*/
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1439px){
+      /*this is for laptop layout*/
+       .container2{
+        box-shadow: 10px 10px 15px rgb(226, 224, 224);
+        height: 500px;
+        margin: auto;
+       }
+       
+       .form_signin{
+        padding: 55px;
+       }
+
+       .login{
+        font-size: 40px;
+       }
+
+       
+}
+
+@media only screen and (min-width:1440px){
+    /* This is for desktop layout*/
+    .container2{
+        box-shadow: 10px 10px 15px rgb(226, 224, 224);
+        height: 600px;
+        margin: auto;
+       }
+
+       .form_signin{
+        padding: 90px;
+       }
+
+       .login{
+        font-size: 40px;
+       }
+       
+}

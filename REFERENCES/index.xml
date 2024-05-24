@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="index.css"?>
+
+<student>
+    <title>Student Record</title>
+    <info>
+        <data>
+            <th>Last name</th>
+            <th>First name </th>
+            <th>Middle initial</th>
+            <th>Age</th>
+            <th>Month-day-year</th>
+            <th>Contact</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Status</th>
+         </data>
+           <data>
+            <td>Jamero</td>
+            <td>Dexter </td>
+            <td>P</td>
+            <td>22</td>
+            <td>February 19 2000</td>
+            <td>092666266625</td>
+            <td>Csjdm Bulacan</td>
+            <td>Jamero@hotmail.com</td>
+            <td>Single</td>
+         </data>
+           <data>
+            <td>Glee</td>
+            <td>Bhee Jay</td>
+            <td>T</td>
+            <td>32</td>
+            <td>February 12 1980</td>
+            <td>0921891829</td>
+            <td>Csjdm Bulacan</td>
+            <td>bjpogi@hotmail.com</td>
+            <td>Taken</td>
+         </data>
+           <data>
+            <td>Angles</td>
+            <td>Mark</td>
+            <td>L</td>
+            <td>22</td>
+            <td>June 23 2002</td>
+            <td>09127812818</td>
+            <td>Csjdm Bulacan</td>
+            <td>pogiangeles@hotmail.com</td>
+            <td>Single</td>
+         </data>
+           <data>
+            <td>Baltazar</td>
+            <td>Atheo</td>
+            <td>M</td>
+            <td>20</td>
+            <td>September 2 2001</td>
+            <td>0912412331</td>
+            <td>Csjdm Bulacan</td>
+            <td>Baltazar@hotmail.com</td>
+            <td>Single</td>
+         </data>
+         <data>
+          <td>Garcia</td>
+          <td>Charlie</td>
+          <td>K</td>
+          <td>20</td>
+          <td>September 2 2001</td>
+          <td>0912411332</td>
+          <td>Csjdm Bulacan</td>
+          <td>Charlie@hotmail.com</td>
+          <td>Single</td>
+       </data>
+        </info>
+   
+</student>

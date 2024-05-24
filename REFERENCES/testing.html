@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Option Example</title>
+</head>
+<body>
+    <!-- Select dropdown -->
+    <select id="barangaySelect">
+        <option value="tangina">Tangina</option>
+        <option value="tangina2">Tangina2</option>
+        <option value="fvr">FVR</option>
+    </select>
+
+    <script>
+        // Fetched barangay value from the database
+        let barangay = "fvr";
+
+        // Select the <select> element
+        let selectElement = document.getElementById('barangaySelect');
+
+        // Iterate through each option
+        selectElement.querySelectorAll('option').forEach(option => {
+            // Check if the option's value matches the fetched barangay
+            if (option.value === barangay) {
+                // Set the selected attribute if there's a match
+                option.selected = true;
+            }
+        });
+    </script>
+</body>
+</html>
